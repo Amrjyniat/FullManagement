@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ادارة المهام</string>
+    <string name="organize_your_life_smartly">نظم حياتك بذكاء</string>
+    <string name="continue_with_facebook">المتابعة باستخدام Facebook</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="continue_with_email">Continue with Email</string>
+
+    <string name="first_title_on_boarding">نظِّم حياتك بذكاء</string>
+    <string name="third_title_on_boarding">أنت تنجز! وثِّق ما تنجزه</string>
+    <string name="fourth_title_on_boarding">بسيط، سهل، مجاني!</string>
+    <string name="second_title_on_boarding">تخلص من شبح النسيان</string>
+
+    <string name="first_description_on_boarding">بقي تركيزك على جودة عملك و نوعيته و دع للتطبيق مهمة تنظيمه و جدولته</string>
+    <string name="second_description_on_boarding">هناك أعمال مهمة في حياتك لا تريد نسيانها، لا تقلق هناك من يذكرك الآن</string>
+    <string name="third_description_on_boarding">الشعور بالإنجاز هو أكبر دافع له، امنح نفسك شعوراً إيجابياً بالنظر إلى انجازاتك العظيمة!</string>
+    <string name="let_get_started">هيا بنا نبدأ!</string>
+
+    <!--profile activity -->
+    <string name="all_tasks_dynamic">جميع المهام(%d)</string>
+    <string name="tasks_out_date_dynamic">المهام المتخطية وقتها(%d)</string>
+    <string name="tasks_near_out_date_dynamic">المهام القريبة(%d)</string>
+    <string name="tasks_completed_dynamic">المهام المنجزة(%d)</string>
+    <string name="all_tasks">جميع المهام</string>
+    <string name="tasks_expiration">المهام المتخطية وقتها</string>
+    <string name="tasks_near_expiration">المهام القريبة</string>
+    <string name="tasks_completed">المهام المنجزة</string>
+    <string name="archived_tasks">المهام المؤرشفة</string>
+    <string name="share_app">مشاركة التطبيق</string>
+    <string name="rate_app">تقييم التطبيق</string>
+    <string name="switch_language">تغيير اللغة</string>
+    <string name="add_task">اضافة مهمة</string>
+    <string name="edit_task">تعديل مهمة</string>
+    <string name="enter_task_name">ادخل اسم المهمة</string>
+    <string name="task_name_required">اسم المهمة *</string>
+    <string name="task_name">اسم المهمة</string>
+    <string name="min_title_length_is_five_char">يجب أن يكون عدد الأحرف 5 على الأقل</string>
+    <string name="description">وصف المهمة</string>
+    <string name="enter_task_description">ادخل وصف المهمة</string>
+    <string name="due_date">تاريخ الانتهاء</string>
+    <string name="tap_here_to_set_date">ادخل تاريخ الانتهاء</string>
+    <string name="priority">الأولوية</string>
+    <string name="high">عالي</string>
+    <string name="medium">متوسط</string>
+    <string name="low">منخفض</string>
+    <string name="not_started">لم تبدأ بعد</string>
+    <string name="in_progress_app">جاري العمل</string>
+    <string name="done">تمت</string>
+    <string name="task_state">حالة المهمة</string>
+    <string name="repetition">التكرار</string>
+    <string name="not_repeated">غير مكررة</string>
+    <string name="daily">يوميا</string>
+    <string name="weekly">اسبوعيا</string>
+    <string name="monthly">شهريا</string>
+    <string name="yearly">سنويا</string>
+    <string name="archive_the_task_after_its_completed">وضع المهمة في الأرشيف بعد انجازها تلقائيا</string>
+    <string name="please_fill_the_required_fields">ادخل الحقول المطلوبة من فضلك</string>
+    <string name="task_details">تفاصيل المهمة</string>
+    <string name="delete">حذف</string>
+    <string name="are_you_sure_to_delete_the_task">هل أنت متأكد من حذفك لهذه المهمة؟</string>
+    <string name="warning">تنبيه!</string>
+    <string name="search_dots">بحث...</string>
+    <string name="share_with">مشاركة من خلال...</string>
+    <string name="contact_us">شاركنا رأيك</string>
+    <string name="send_mail">ارسل ايميل...</string>
+    <string name="you_do_not_have_any_app_execute_this_action">لا تملك أي تطبيق قادر على تنفيذ هذا الفعل.</string>
+    <string name="archive">أرشفة</string>
+    <string name="unarchive">فك الأرشفة</string>
+    <string name="unarchived_successfully">تم فك أرشفة المهمة بنجاح!</string>
+    <string name="unarchived_failed_try_again_later_please">لم يتم فك الأرشفة المهمة, حاول لاحقا من فضلك.</string>
+    <string name="archived_successfully">تم أرشفة المهمة بنجاح!</string>
+    <string name="archived_failed_try_again_later_please">لم يتم أرشفة المهمة, حاول لاحقا من فضلك.</string>
+    <string name="the_task_updated_successfully">تم تحديث المهمة بنجاح</string>
+    <string name="the_task_added_successfully">تم اضافة المهمة بنجاح</string>
+    <string name="cancel">الغاء</string>
+    <string name="list_empty">لا يوجد مهام، أضِف مهمة الآن!</string>
+    <string name="list_empty_archive">لا يوجد مهام مؤرشفة</string>
+    <string name="show_results">اظهار النتائج</string>
+    <string name="clear_all">مسح الكل</string>
+    <string name="today">اليوم</string>
+    <string name="tomorrow">غداً</string>
+    <string name="this_week">هذا الاسبوع</string>
+    <string name="this_month">هذا الشهر</string>
+    <string name="custom_date">تاريخ مخصص</string>
+    <string name="from">من</string>
+    <string name="to">إلى</string>
+    <string name="there_are_no_results">لا يوجد نتائج</string>
+    <string name="remove_filters">إزالة الفلاتر</string>
+    <string name="change">تغيير</string>
+    <string name="english">انجليزي</string>
+    <string name="arabic">عربي</string>
+    <string name="this_language_is_already_selected">هذه اللغة مختارة بالفعل</string>
+    <string name="full_management_notification_channel_name">التنبيهات</string>
+    <string name="notifications">الاشعارات</string>
+    <string name="notify_before_one_day">نبهني قبل يوم من انتهاء موعد المهمة</string>
+    <string name="notify_before_two_hours">نبهني قبل ساعتين من انتهاء موعد المهمة</string>
+    <string name="notify_when_due_date">نبهني عند انتهاء موعد المهمة</string>
+
+
+    <string name="notification_title_before_one_day">سوف يحين وقت استحقاق المهمة رقم %d غداً</string>
+    <string name="notification_title_before_two_hours">سوف يحين وقت استحقاق المهمة رقم %d بعد ساعتين</string>
+    <string name="notification_title_when_due_date">لقد تأخرت المهمة ذات الرقم %d عن وقت استحقاقها</string>
+
+    <string name="notification_description_before_one_day">يرجى الانتباه أن غداً هو وقت استحقاق المهمة "%s"</string>
+    <string name="notification_description_before_two_hours">يرجى الانتباه أن وقت استحقاق المهمة "%s" سوف يحين بعد ساعتين من الآن</string>
+    <string name="notification_description_when_due_date">يرجى الانتباه أن المهمة "%s" قد تأخرت عن وقت استحقاقها</string>
+    <string name="full_management_notification_channel_description">Reminders</string>
+    <string name="the_task_deleted_successfully">The task deleted successfully!</string>
+    <string name="the_task_does_not_deleted_try_again_later_please">The task doesn\'t deleted, try again later please.</string>
+</resources>

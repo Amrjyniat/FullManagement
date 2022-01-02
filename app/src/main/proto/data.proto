@@ -1,0 +1,9 @@
+
+//syntax = "proto3";
+//
+//option java_package = "com.productivity.fullmangement";
+//option java_multiple_files = true;
+//
+//message IsSeenOnBoardingInfo {
+//  repeated int64 IsSeenOnBoarding = 1;
+//}

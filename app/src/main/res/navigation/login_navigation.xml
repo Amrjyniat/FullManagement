@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.productivity.fullmangement.ui.login.LoginFragment"
+        tools:layout="@layout/login_fragment" />
+<!--    <fragment
+        android:id="@+id/onBoardingFragment"
+        android:name="com.productivity.fullmangement.ui.main.OnBoardingFragment"
+        tools:layout="@layout/fragment_on_boarding" >
+        <action
+            android:id="@+id/to_login"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@anim/fragment_navigate_enter"
+            app:exitAnim="@anim/fragment_navigate_exit"
+            app:popEnterAnim="@anim/fragment_pop_enter"
+            app:popExitAnim="@anim/fragment_pop_exit"
+            app:popUpTo="@id/onBoardingFragment"
+            app:popUpToInclusive="true" />
+    </fragment>-->
+</navigation>

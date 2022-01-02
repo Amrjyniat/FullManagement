@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.productivity.fullmangement">
+
+    <application
+        android:name=".FullManagementApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_full_management_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_full_management_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FullMangementCompose">
+        <activity
+            android:name=".ui.main.HomeActivity"
+            android:exported="true"
+            android:theme="@style/Theme.FullMangementCompose.launcher">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.FullMangementCompose.NoActionBar">
+
+        </activity>
+
+        <receiver
+            android:name=".utils.notifications.AlarmReceiver"
+            android:enabled="true"
+            android:exported="false"></receiver>
+    </application>
+
+</manifest>

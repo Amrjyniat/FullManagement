@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Full Management</string>
+    <string name="organize_your_life_smartly">Organize your life smartly</string>
+    <!-- sign up/in activity -->
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="continue_with_email">Continue with Email</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="first_title_on_boarding">Organize your life smartly</string>
+    <string name="second_title_on_boarding">Get rid of the ghost of forgetfulness</string>
+    <string name="third_title_on_boarding">You accomplish! Document what you are doing</string>
+    <string name="fourth_title_on_boarding">Simple, Easy, Free!</string>
+
+    <string name="first_description_on_boarding">Keep your focus on the quality of your work, and let the app processed its organization and scheduling</string>
+    <string name="second_description_on_boarding">There are important works in your life that you do not want to forget. Do not worry, Here\'s who remind you.</string>
+    <string name="third_description_on_boarding">The success feeling is the best motivation for success, give yourself a positive Feeling by looking into your accomplishes</string>
+    <string name="let_get_started">let\'s get started</string>
+
+    <!--profile activity -->
+    <string name="all_tasks_dynamic">All Tasks(%d)</string>
+    <string name="tasks_out_date_dynamic">Tasks out date(%d)</string>
+    <string name="tasks_near_out_date_dynamic">Tasks near out date(%d)</string>
+    <string name="tasks_completed_dynamic">Completed tasks(%d)</string>
+    <string name="all_tasks">All Tasks</string>
+    <string name="tasks_expiration">Tasks expiration</string>
+    <string name="tasks_near_expiration">Tasks near expiration</string>
+    <string name="tasks_completed">Completed tasks</string>
+    <string name="archived_tasks">Archived tasks</string>
+    <string name="share_app">Share app</string>
+    <string name="rate_app">Rate app</string>
+    <string name="switch_language">Switch language</string>
+    <string name="add_task">Add Task</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="enter_task_name">Enter task name</string>
+    <string name="task_name_required">Task name <font color="red">*</font></string>
+    <string name="task_name">Task name</string>
+    <string name="min_title_length_is_five_char">Min title length is 5 char</string>
+    <string name="description">Description</string>
+    <string name="enter_task_description">Enter task description</string>
+    <string name="due_date">Due Date</string>
+    <string name="tap_here_to_set_date">Tap here to set date</string>
+    <string name="priority">Priority</string>
+    <string name="high">High</string>
+    <string name="medium">Medium</string>
+    <string name="low">Low</string>
+    <string name="not_started">Not started</string>
+    <string name="in_progress_app">In progress</string>
+    <string name="done">Done</string>
+    <string name="task_state">Task state</string>
+    <string name="repetition">Repetition</string>
+    <string name="not_repeated">Not repeated</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="yearly">Yearly</string>
+    <string name="archive_the_task_after_its_completed">Archive the task after its completed</string>
+    <string name="please_fill_the_required_fields">Please fill the required fields</string>
+    <string name="task_details">Task details</string>
+    <string name="delete">Delete</string>
+    <string name="are_you_sure_to_delete_the_task">Are you sure to delete the task?</string>
+    <string name="warning">Warning!</string>
+    <string name="search_dots">Search...</string>
+    <string name="share_with">Share With ..</string>
+    <string name="contact_us">Send feedback</string>
+    <string name="send_mail">Send mail...</string>
+    <string name="you_do_not_have_any_app_execute_this_action">You don\'t have any app execute this action.</string>
+    <string name="archive">Archive</string>
+    <string name="unarchive">Unarchive</string>
+    <string name="unarchived_successfully">Unarchived successfully!</string>
+    <string name="unarchived_failed_try_again_later_please">Unarchived failed, try again later please.</string>
+    <string name="archived_successfully">Archived successfully!</string>
+    <string name="archived_failed_try_again_later_please">Archived failed, try again later please.</string>
+    <string name="the_task_updated_successfully">The task updated successfully!</string>
+    <string name="the_task_added_successfully">The task added successfully!</string>
+    <string name="cancel">Cancel</string>
+    <string name="list_empty">There are no tasks, try adding one!</string>
+    <string name="list_empty_archive">There are no tasks archived</string>
+    <string name="show_results">Show results</string>
+    <string name="clear_all">Clear all</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="this_week">This week</string>
+    <string name="this_month">This month</string>
+    <string name="custom_date">Custom date</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="there_are_no_results">There are no results</string>
+    <string name="nothing">nothing</string>
+    <string name="remove_filters">Remove filters</string>
+    <string name="change">Change</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="this_language_is_already_selected">This language is already selected</string>
+    <string name="arabic_code" translatable="false">ar</string>
+    <string name="english_code" translatable="false">en</string>
+    <string name="full_management_notification_channel_id" translatable="false">full_management_channel</string>
+    <string name="full_management_notification_channel_name">Reminders</string>
+    <string name="notifications">Notifications</string>
+    <string name="notify_before_one_day">Notify me before day from deadline</string>
+    <string name="notify_before_two_hours">Notify me before two hours from deadline</string>
+    <string name="notify_when_due_date">Notify me when deadline approaches</string>
+
+    <string name="notification_title_before_one_day">Task number %d is due tomorrow</string>
+    <string name="notification_title_before_two_hours">Task number %d is due after two hours</string>
+    <string name="notification_title_when_due_date">Task number %d is overdue</string>
+
+    <string name="notification_description_before_one_day">Please note that tomorrow is the due date for the task "%s"</string>
+    <string name="notification_description_before_two_hours">Please note that the task "%s" is due two hours from now</string>
+    <string name="notification_description_when_due_date">Please note that task "%s" is overdue</string>
+    <string name="group_key_full_management" translatable="false">group_notification</string>
+    <string name="full_management_notification_channel_description">notify you when your task deadline approaches</string>
+    <string name="the_task_deleted_successfully">The task deleted successfully!</string>
+    <string name="the_task_does_not_deleted_try_again_later_please">The task doesn\'t deleted, try again later please.</string>
+
+
+</resources>

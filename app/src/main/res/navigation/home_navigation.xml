@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/onBoardingFragment">
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.productivity.fullmangement.ui.main.home.HomeFragment"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/to_addTask"
+            app:destination="@id/AddEditTaskFragment"
+            app:enterAnim="@anim/fragment_navigate_enter"
+            app:exitAnim="@anim/fragment_navigate_exit"
+            app:popEnterAnim="@anim/fragment_pop_enter"
+            app:popExitAnim="@anim/fragment_pop_exit"/>
+        <action
+            android:id="@+id/to_tasks"
+            app:destination="@id/tasksFragment"
+            app:enterAnim="@anim/fragment_navigate_enter"
+            app:exitAnim="@anim/fragment_navigate_exit"
+            app:popEnterAnim="@anim/fragment_pop_enter"
+            app:popExitAnim="@anim/fragment_pop_exit"/>
+        <action
+            android:id="@+id/to_taskDetails"
+            app:destination="@id/taskDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/AddEditTaskFragment"
+        android:name="com.productivity.fullmangement.ui.main.add_edit_task.AddEditTaskFragment"
+        tools:layout="@layout/fragment_add_edit_task">
+
+        <argument
+            android:name="taskId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+    <fragment
+        android:id="@+id/tasksFragment"
+        android:name="com.productivity.fullmangement.ui.main.tasks_list.TasksFragment"
+        android:label="TasksFragment" >
+        <action
+            android:id="@+id/to_AddEditTask"
+            app:destination="@id/AddEditTaskFragment"
+            app:enterAnim="@anim/fragment_navigate_enter"
+            app:exitAnim="@anim/fragment_navigate_exit"
+            app:popEnterAnim="@anim/fragment_pop_enter"
+            app:popExitAnim="@anim/fragment_pop_exit"/>
+        <action
+            android:id="@+id/to_editTask"
+            app:destination="@id/AddEditTaskFragment"
+            app:enterAnim="@anim/fragment_navigate_enter"
+            app:exitAnim="@anim/fragment_navigate_exit"
+            app:popEnterAnim="@anim/fragment_pop_enter"
+            app:popExitAnim="@anim/fragment_pop_exit"/>
+        <argument
+            android:name="tasksType"
+            app:argType="com.productivity.fullmangement.data.local.TaskType"
+            android:defaultValue="ALL" />
+        <action
+            android:id="@+id/to_taskDetails"
+            app:destination="@id/taskDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/taskDetailsFragment"
+        android:name="com.productivity.fullmangement.ui.main.task_details.TaskDetailsFragment"
+        android:label="TaskDetailsFragment" >
+        <argument
+            android:name="taskId"
+            app:argType="long" />
+        <action
+            android:id="@+id/to_AddEditTaskFragment"
+            app:destination="@id/AddEditTaskFragment"
+            app:enterAnim="@anim/fragment_navigate_enter"
+            app:exitAnim="@anim/fragment_navigate_exit"
+            app:popEnterAnim="@anim/fragment_pop_enter"
+            app:popExitAnim="@anim/fragment_pop_exit"/>
+    </fragment>
+    <fragment
+        android:id="@+id/onBoardingFragment"
+        android:name="com.productivity.fullmangement.ui.main.OnBoardingFragment"
+        android:label="OnBoardingFragment" >
+        <action
+            android:id="@+id/to_home"
+            app:destination="@id/HomeFragment"
+            app:enterAnim="@anim/fragment_navigate_enter"
+            app:exitAnim="@anim/fragment_navigate_exit"
+            app:popEnterAnim="@anim/fragment_pop_enter"
+            app:popExitAnim="@anim/fragment_pop_exit"
+            app:popUpTo="@id/onBoardingFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

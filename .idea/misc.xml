@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable-v24/ic_clear_filters.xml" value="0.22870370370370371" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable-v24/ic_email_btn_sign_up.xml" value="0.24871794871794872" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable-v24/ic_google_btn_sign_up.xml" value="0.24871794871794872" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24871794871794872" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable/ic_add.xml" value="0.1" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable/ic_archive.xml" value="0.2526041666666667" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable/ic_contact.xml" value="0.2526041666666667" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable/ic_delete.xml" value="0.2526041666666667" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable/ic_empty.xml" value="0.22962962962962963" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable/ic_filter.xml" value="0.2526041666666667" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable/ic_filter_off.xml" value="0.22870370370370371" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable/ic_icons8_delete.xml" value="0.11203703703703703" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable/ic_language.xml" value="0.24166666666666667" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24871794871794872" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable/ic_like.xml" value="0.24871794871794872" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable/ic_notification.xml" value="0.2526041666666667" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable/ic_organizing_projects_bro.xml" value="0.24871794871794872" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable/ic_organizing_projects_rafiki.xml" value="0.24871794871794872" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable/ic_reading_list_pana.xml" value="0.24871794871794872" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable/ic_repetition.xml" value="0.2526041666666667" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable/ic_share.xml" value="0.11203703703703703" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable/ic_unarchive.xml" value="0.2526041666666667" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable/ic_work_time_pana.xml" value="0.24871794871794872" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/drawable/splash_screen.xml" value="0.24871794871794872" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/layout/activity_home.xml" value="0.23645833333333333" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/layout/activity_login.xml" value="0.23645833333333333" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/layout/fragment_add_edit_task.xml" value="0.23645833333333333" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/layout/fragment_home.xml" value="0.23645833333333333" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/layout/fragment_on_boarding.xml" value="0.23645833333333333" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/layout/login_fragment.xml" value="0.23645833333333333" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/layout/task_details_fragment.xml" value="0.23645833333333333" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/layout/tasks_fragment.xml" value="0.23645833333333333" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/layout/test.xml" value="0.23645833333333333" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.24871794871794872" />
+        <entry key="..\:/My Files/Programming/Android Projects/My Projects/Full Mangement/FullMangementCompose/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/HP/FullMangementCompose/app/src/main/res/drawable-v24/ic_email_btn_sign_up.xml" value="0.22314814814814815" />
+        <entry key="..\:/Users/HP/FullMangementCompose/app/src/main/res/drawable-v24/ic_google_btn_sign_up.xml" value="0.22314814814814815" />
+        <entry key="..\:/Users/HP/FullMangementCompose/app/src/main/res/drawable/ic_add.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/HP/FullMangementCompose/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22314814814814815" />
+        <entry key="..\:/Users/HP/FullMangementCompose/app/src/main/res/drawable/ic_log_out.xml" value="0.23796296296296296" />
+        <entry key="..\:/Users/HP/FullMangementCompose/app/src/main/res/drawable/ic_menu_drawer.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/HP/FullMangementCompose/app/src/main/res/drawable/splash_screen.xml" value="0.2351851851851852" />
+        <entry key="..\:/Users/HP/FullMangementCompose/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Users/HP/FullMangementCompose/app/src/main/res/layout/activity_login.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/HP/FullMangementCompose/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/HP/FullMangementCompose/app/src/main/res/layout/content_home.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/HP/FullMangementCompose/app/src/main/res/layout/fragment_add_task.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/HP/FullMangementCompose/app/src/main/res/layout/fragment_first.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/HP/FullMangementCompose/app/src/main/res/layout/fragment_home.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/HP/FullMangementCompose/app/src/main/res/layout/fragment_on_boarding.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/HP/FullMangementCompose/app/src/main/res/layout/fragment_on_borading.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/HP/FullMangementCompose/app/src/main/res/layout/fragment_second.xml" value="0.1171875" />
+        <entry key="..\:/Users/HP/FullMangementCompose/app/src/main/res/layout/login_fragment.xml" value="0.1787037037037037" />
+        <entry key="..\:/Users/HP/FullMangementCompose/app/src/main/res/layout/sign_up_fragment.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/HP/FullMangementCompose/app/src/main/res/layout/splash_screen.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/HP/FullMangementCompose/app/src/main/res/layout/tasks_fragment.xml" value="0.23645833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

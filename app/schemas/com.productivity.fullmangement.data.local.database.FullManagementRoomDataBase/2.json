@@ -1,0 +1,82 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 2,
+    "identityHash": "866f6465af6835b51b1332692348b132",
+    "entities": [
+      {
+        "tableName": "tasks",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`taskId` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `title` TEXT NOT NULL, `description` TEXT, `dueDateTime` INTEGER, `priority` TEXT, `taskState` TEXT, `repetition` TEXT, `isArchived` INTEGER NOT NULL, `isArchivedAfterCompleted` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "taskId",
+            "columnName": "taskId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "title",
+            "columnName": "title",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "description",
+            "columnName": "description",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "dueDateTime",
+            "columnName": "dueDateTime",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "priority",
+            "columnName": "priority",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "taskState",
+            "columnName": "taskState",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "repetition",
+            "columnName": "repetition",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "isArchived",
+            "columnName": "isArchived",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isArchivedAfterCompleted",
+            "columnName": "isArchivedAfterCompleted",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "taskId"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '866f6465af6835b51b1332692348b132')"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+    <color name="colorPrimaryDark">#FF133314</color>
+
+    <color name="colorPrimary">#FF196920</color>
+
+    <color name="colorAccent">#FF19A820</color>
+
+    <color name="purple_700">#FF133314</color>
+
+    <color name="teal_700">#FF018786</color>
+
+    <color name="black">#FF000000</color>
+
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- <color name="colorPrimary">#196920</color><color name="colorPrimaryDark">#133314</color><color name="colorAccent">#19A820</color>-->
+
+
+</resources>
