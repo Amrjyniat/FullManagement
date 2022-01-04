@@ -43,29 +43,6 @@ class AddTaskViewModel @Inject constructor(
 
     val taskId = args.get<Long>("taskId") ?: -1
 
-    init {
-        if (taskId > 0){
-            viewModelScope.launch {
-                val taskDomain = repository.getTaskById(taskId).asDomainModel(context)
-
-                taskDomain.apply {
-                    onTaskNameChanged(title)
-                    onTaskDescChanged(description.orEmpty())
-                    if (dueDateTime?.isNotEmpty() == true) {
-                        setEndDate(dueDateTime.getTimeInMillsFromDateFormatted(EnumDateTimeFormats.NORMAL_DATE_TIME.format))
-                    }
-                    setPriority(priority)
-                    setTaskState(taskState)
-                    setRepetition(repetition)
-                    if (isArchivedAfterCompleted)
-                        onChangeArchivedAfterCompleted()
-
-                }
-
-            }
-        }
-    }
-
     val taskName = MutableStateFlow("")
     fun onTaskNameChanged(newValue: String) {
         taskName.value = newValue
@@ -137,6 +114,30 @@ class AddTaskViewModel @Inject constructor(
             errorTaskNameResId = errorTaskNameResId
         )
 
+    }
+
+
+    init {
+        if (taskId > 0){
+            viewModelScope.launch {
+                val taskDomain = repository.getTaskById(taskId).asDomainModel(context)
+
+                taskDomain.apply {
+                    onTaskNameChanged(title)
+                    onTaskDescChanged(description.orEmpty())
+                    if (dueDateTime?.isNotEmpty() == true) {
+                        setEndDate(dueDateTime.getTimeInMillsFromDateFormatted(EnumDateTimeFormats.NORMAL_DATE_TIME.format))
+                    }
+                    setPriority(priority)
+                    setTaskState(taskState)
+                    setRepetition(repetition)
+                    if (isArchivedAfterCompleted)
+                        onChangeArchivedAfterCompleted()
+
+                }
+
+            }
+        }
     }
 
     private val _navigateBack = Channel<Long>()

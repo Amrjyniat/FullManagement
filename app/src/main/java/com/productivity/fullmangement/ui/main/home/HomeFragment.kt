@@ -127,7 +127,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
                                 },
                                 scaffoldState = scaffoldState,
                                 drawerContent = {
-                                    NavDrawer("Amr Jyniat") {
+                                    NavDrawer("") {
                                         coroutineScope.launch { scaffoldState.drawerState.close() }
                                     }
                                 },

@@ -110,7 +110,6 @@ class AddEditTaskFragment : Fragment(R.layout.fragment_add_edit_task) {
             lifecycle.repeatOnLifecycle(Lifecycle.State.STARTED) {
                 viewModelAddTask.navigateBack.collect { createdTaskId ->
                     if (createdTaskId.toInt() % 5 == 0 && viewModelAddTask.taskId < 1){
-                        Timber.i("TestAddTask createTaskId: $createdTaskId")
                         showReviewAppDialog(requireActivity()){
                             findNavController().popBackStack()
                         }
