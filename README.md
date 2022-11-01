@@ -41,9 +41,9 @@ Full Mangement is based on the MVVM architecture and the Repository pattern.
 [![](https://github.com/Amrjyniat/FullMangement/blob/master/previews/google%20play.png)](https://play.google.com/store/apps/details?id=com.productivity.fullmangement)
 
 # Contact 📩
-Have an project? DM me at 👇
+Have a project? DM me at 👇
 
-Drop a mail to:- amrjyniat@gmail.com
+Contact me: amrjyniat@gmail.com
 
 # License 🔖
 
